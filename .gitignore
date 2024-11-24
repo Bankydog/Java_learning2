@@ -1,0 +1,19 @@
+# Ignore compiled class files
+*.class
+
+tempCodeRunnerFile.java
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.iml
+
+# Ignore Maven target directory
+target/
+
+# Ignore Gradle build directory
+build/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
