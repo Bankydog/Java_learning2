@@ -6,7 +6,7 @@ public class ex1_array {
         System.out.println("a number in position 3 is : " + number[2]);
         number[2] = 100;
         System.out.println("change a number in position 3 is : " + number[2]);
-        System.err.println("size of array is : " + number.length);
+        System.out.println("size of array is : " + number.length);
         for(int i = 0; i < number.length; i++){
             System.out.println("position : " + i +" value = "+ number[i]);
         }
