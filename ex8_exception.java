@@ -4,12 +4,14 @@ public class ex8_exception {
             int[] x = {1, 2, 3};
             int a =10 , b =20;
             int c = add(a,b);
-            System.out.println(x[1]);
+            // System.out.println(x[1]);
             System.out.println(c);
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
-        } 
+        } finally {
+            System.out.println("Execution of add method completed.");
+        }
     }
 
     public static int add(int x, int y){
@@ -18,9 +20,7 @@ public class ex8_exception {
         } catch (Exception e) {
             System.err.println(e.getMessage());
             return 0;
-        } finally {
-            System.out.println("Execution of add method completed.");
-        }
+        } 
         
     }
 }
